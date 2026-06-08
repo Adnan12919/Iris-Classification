@@ -46,7 +46,7 @@ Iris-Classification/
 │
 ├── IRIS.csv                    # Dataset
 ├── iris_classification.ipynb   # Complete notebook
-├── iris_best_model.pkl         # Saved best model pipeline
+├── Iris_best_model.pkl         # Saved best model pipeline
 ├── README.md
 │
 ├── fig1_distributions.png
@@ -220,7 +220,7 @@ showing their strong predictive power.
 The best-performing pipeline is stored as:
 
 ```text
-iris_best_model.pkl
+Iris_best_model.pkl
 ```
 
 Pipeline Components:
@@ -247,7 +247,7 @@ pip install numpy pandas scikit-learn joblib matplotlib seaborn
 import joblib
 import numpy as np
 
-model = joblib.load("iris_best_model.pkl")
+model = joblib.load("Iris_best_model.pkl")
 
 sample = np.array([[5.1, 3.5, 1.4, 0.2]])
 
