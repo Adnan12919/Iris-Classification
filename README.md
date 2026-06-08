@@ -45,18 +45,19 @@ using their sepal and petal measurements.
 Iris-Classification/
 │
 ├── IRIS.csv                    # Dataset
-├── iris_classification.ipynb   # Complete notebook
+├── Iris_classification.ipynb   # Complete notebook
 ├── Iris_best_model.pkl         # Saved best model pipeline
 ├── README.md
 │
-├── fig1_distributions.png
-├── fig2_pairplot.png
-├── fig3_heatmap.png
-├── fig4_boxplots.png
-├── fig5_confusion.png
-├── fig6_comparison.png
-├── fig7_cv_scores.png
-└── fig8_decision_tree.png
+├── images/
+    ├── fig1_distributions.png
+    ├── fig2_pairplot.png
+    ├── fig3_heatmap.png
+    ├── fig4_boxplots.png
+    ├── fig5_confusion.png
+    ├── fig6_comparison.png
+    ├── fig7_cv_scores.png
+    └── fig8_decision_tree.png
 ```
 
 ---
@@ -92,19 +93,19 @@ The dataset is balanced and contains no missing values.
 
 ### Feature Distributions
 
-![Feature Distribution](fig1_distributions.png)
+![Feature Distribution](images/fig1_distributions.png)
 
 ### Pair Plot
 
-![Pair Plot](fig2_pairplot.png)
+![Pair Plot](images/fig2_pairplot.png)
 
 ### Correlation Heatmap
 
-![Heatmap](fig3_heatmap.png)
+![Heatmap](images/fig3_heatmap.png)
 
 ### Boxplots
 
-![Boxplots](fig4_boxplots.png)
+![Boxplots](images/fig4_boxplots.png)
 
 ---
 
@@ -178,7 +179,7 @@ Selected based on highest cross-validation accuracy and lowest variance.
 
 ## 📉 Confusion Matrices
 
-![Confusion Matrix](fig5_confusion.png)
+![Confusion Matrix](images/fig5_confusion.png)
 
 Observations:
 
@@ -190,13 +191,13 @@ Observations:
 
 ## 📊 Metric Comparison
 
-![Comparison](fig6_comparison.png)
+![Comparison](images/fig6_comparison.png)
 
 ---
 
 ## 🔄 Cross Validation
 
-![Cross Validation](fig7_cv_scores.png)
+![Cross Validation](images/fig7_cv_scores.png)
 
 K-NN achieved the most stable and highest-performing results across folds.
 
@@ -204,7 +205,7 @@ K-NN achieved the most stable and highest-performing results across folds.
 
 ## 🌳 Decision Tree Visualization
 
-![Decision Tree](fig8_decision_tree.png)
+![Decision Tree](images/fig8_decision_tree.png)
 
 Important splits are primarily based on:
 
@@ -273,7 +274,7 @@ cd Iris-Classification
 
 pip install -r requirements.txt
 
-jupyter notebook iris_classification.ipynb
+jupyter notebook Iris_classification.ipynb
 ```
 
 Run all notebook cells to:
