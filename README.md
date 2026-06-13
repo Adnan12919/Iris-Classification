@@ -50,14 +50,14 @@ Iris-Classification/
 ├── README.md
 │
 ├── images/
-    ├── fig1_distributions.png
-    ├── fig2_pairplot.png
-    ├── fig3_heatmap.png
-    ├── fig4_boxplots.png
-    ├── fig5_confusion.png
-    ├── fig6_comparison.png
-    ├── fig7_cv_scores.png
-    └── fig8_decision_tree.png
+    ├── fig1_distributions.png      # Feature KDE + histogram plots
+    ├── fig2_pairplot.png           # Pair-plot showing class separability
+    ├── fig3_heatmap.png            # Feature correlation heatmap
+    ├── fig4_boxplots.png           # Box-plots per feature per species
+    ├── fig5_confusion.png          # Confusion matrices (all 3 models)
+    ├── fig6_comparison.png         # Accuracy / Precision / Recall / F1 bar chart
+    ├── fig7_cv_scores.png          # 5-fold cross-validation scores
+    ├── fig8_decision_tree.png      # Decision tree structure diagram
 ```
 
 ---
