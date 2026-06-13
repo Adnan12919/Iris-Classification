@@ -303,6 +303,4 @@ The analysis also confirms that petal measurements alone contain most of the inf
 
 **Adnan Rahman**
 
-Sharda School of Computing Science and Engineering
-
 Machine Learning Project — Iris Species Classification
